@@ -21,8 +21,8 @@ span {
     justify-content: space-between;
     margin: 0 auto;
     color: aliceblue;
-    background-color: rgb(185, 115, 8);
     max-width: 1550px;
+    background-color: hsl(224deg 74% 54%);
 }
 
 .menu {
@@ -32,11 +32,15 @@ span {
 
 
 .containerh>div {
-    padding: 20px;
+    padding: 5px;
 }
 
 header {
-    background-color: hsl(224deg 74% 54%);
+    background-image: url(../img_discord/jumbo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
 }
 
 .action-buttons {
@@ -58,7 +62,7 @@ header {
     max-width: 800px;
     text-align: center;
     margin: 0 auto;
-    padding: 70px;
+    padding: 160px 70px 70px 70px;
     color: aliceblue;
 
 }
