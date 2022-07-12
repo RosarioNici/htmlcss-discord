@@ -109,6 +109,18 @@ header {
 
 }
 
+.text-of-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: inherit;
+    max-width: 300px;
+}
+
+.text-of-flex>* {
+    padding: 10px;
+    text-align: left;
+}
+
 .grey {
     background-color: #f6f6f6;
 }
@@ -120,8 +132,14 @@ header {
 }
 
 .flex-footer-p {
-    max-width: 1550px;
+    max-width: 1200px;
     padding: 90px;
+}
+
+#p-flex {
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .mac-main {
@@ -136,6 +154,11 @@ header {
 
 h1 {
     padding: 30px;
+}
+
+.wave-1hkxOo-midle {
+    background-color: #f6f6f6;
+
 }
 
 /* Content footer */
