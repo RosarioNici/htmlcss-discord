@@ -16,6 +16,11 @@ a {
     color: aliceblue;
     text-decoration: none;
     padding: 10px;
+
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 /* end general rules */
@@ -59,6 +64,10 @@ header {
     border: 0px;
 }
 
+.sing-up:hover {
+    box-shadow: 0 0 10px rgb(41, 40, 40);
+}
+
 
 
 .action-buttons {
@@ -80,6 +89,10 @@ header {
     border-radius: 20px;
 }
 
+.broswser:hover {
+    box-shadow: 0 0 10px whitesmoke;
+}
+
 .actions {
     display: flex;
     flex-direction: column;
@@ -98,6 +111,10 @@ header {
     border-radius: 20px;
     border: 1px aliceblue;
     background-color: aliceblue;
+}
+
+.mac:hover {
+    box-shadow: 0 0 10px rgb(41, 40, 40);
 }
 
 /* end content header */
@@ -164,6 +181,10 @@ h2 {
     background-color: hsl(226deg 58% 72%);
     color: aliceblue;
     font-size: large;
+}
+
+.mac-main:hover {
+    box-shadow: 0 0 10px grey;
 }
 
 h1 {
@@ -236,6 +257,10 @@ h3,
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 0;
+}
+
+.footer-span:hover {
+    text-decoration: double;
 }
 
 /* end content footer */
