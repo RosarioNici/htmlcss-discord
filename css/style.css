@@ -23,6 +23,7 @@ a {
 .containerh {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 0 auto;
     color: aliceblue;
     max-width: 1550px;
@@ -106,6 +107,9 @@ header {
     flex-direction: column;
 }
 
+h2 {
+    line-height: 1;
+}
 
 .flex {
     display: flex;
